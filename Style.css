@@ -69,3 +69,34 @@ h3 {
     color: #388E3C;
     margin-top: 20px;
 }
+/* Stile del banner */
+.banner {
+    display: flex;
+    align-items: center; /* Centra verticalmente il contenuto */
+    justify-content: space-between; /* Spazio tra testo e immagine */
+    height: 20vh; /* 20% dell'altezza dello schermo */
+    padding: 10px 20px; /* Margine interno */
+    background-color: #f9f9f9; /* Sfondo chiaro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombreggiatura */
+    border-radius: 8px; /* Bordi arrotondati */
+}
+
+/* Stile del testo nel banner */
+.banner-text {
+    flex: 1; /* Occupa lo spazio rimanente */
+    color: #4CAF50; /* Colore verde */
+    font-size: 1.5rem; /* Dimensione del testo */
+    font-weight: bold; /* Testo in grassetto */
+    padding-right: 20px; /* Spazio a destra del testo */
+}
+
+/* Stile dell'immagine nel banner */
+.banner-image {
+    flex: 0 0 auto; /* Mantiene la dimensione originale dell'immagine */
+    max-height: 100%; /* L'immagine non supera l'altezza del banner */
+}
+
+    .banner-image img {
+        height: 100%; /* Immagine responsiva */
+        border-radius: 8px; /* Bordi arrotondati */
+    }
