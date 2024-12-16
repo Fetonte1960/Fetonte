@@ -100,3 +100,11 @@ h3 {
         height: 100%; /* Immagine responsiva */
         border-radius: 8px; /* Bordi arrotondati */
     }
+.section-box {
+    border: 2px solid #000;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
