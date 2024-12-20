@@ -1,34 +1,39 @@
 ﻿body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 10;
     padding: 0;
     background: #f4f4f9;
     color: #333;
 }
 
 header {
-    text-align: center;
-    background: #4CAF50;
-    color: white;
-    padding: 20px;
+    border: 2px solid #444; 
+    padding: 20px; 
+    margin: 20px auto; 
+    border-radius: 10px; 
+    background-color: #e6f2ff; 
+    text-align: center; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
-    color: white;
-    margin-top: 20px;
+    border: 2px solid #444; 
+    padding: 20px; 
+    margin: 20px auto; 
+    border-radius: 10px; 
+    background-color: #e6f2ff; 
+    text-align: center; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Stile per le sezioni */
 section {
+    border: 2px solid #000;
     padding: 20px;
     margin: 20px auto;
-    max-width: 800px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Stile per le citazioni */
@@ -49,10 +54,14 @@ blockquote {
 
 /* Stile per i link */
 a {
-    color: #4CAF50;
+    color: #0077cc;
     text-decoration: none;
 }
-
+p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #666;
+}
     a:hover {
         text-decoration: underline;
         color: #388E3C;
@@ -66,8 +75,8 @@ h2 {
 }
 
 h3 {
-    color: #388E3C;
-    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 /* Stile del banner */
 .banner {
@@ -102,9 +111,35 @@ h3 {
     }
 .section-box {
     border: 2px solid #000;
-    padding: 15px;
+    padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
     background-color: #f9f9f9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+/* Stile per i paragrafi nella sezione */
+.section-paragraph {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #000; /* Nero puro */
+}
+.image-container {   
+    text-align: center;
+    margin-bottom: 15px;
+}
+.section-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.quote-footer {
+    padding: 15px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    text-align: right;
+}
+
+
