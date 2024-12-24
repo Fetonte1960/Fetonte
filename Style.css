@@ -78,6 +78,11 @@ h3 {
     text-align: center;
     margin-bottom: 10px;
 }
+img {
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
 /* Stile del banner */
 .banner {
     display: flex;
@@ -123,9 +128,10 @@ h3 {
     font-size: 0.9em;
     color: #000; /* Nero puro */
 }
-.image-container {   
+.image-container {
     text-align: center;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 .section-image {
     width: 100%;
