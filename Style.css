@@ -60,7 +60,7 @@ a {
 p {
     margin: 10px 0;
     font-size: 0.9em;
-    color: #666;
+    color: #000; /* Nero puro */
 }
     a:hover {
         text-decoration: underline;
