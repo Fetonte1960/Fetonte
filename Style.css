@@ -81,10 +81,11 @@ h3 {
 img {
     text-align: center;
     margin-bottom: 15px;
-    max-width:350px; 
-    height:auto; 
+    max-width: 350px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
 /* Stile del banner */
 .banner {
