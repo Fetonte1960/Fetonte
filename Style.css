@@ -1,9 +1,14 @@
 ﻿body {
     font-family: Arial, sans-serif;
-    margin: 10;
+    margin: 0;
     padding: 0;
     background: #f4f4f9;
     color: #333;
+    line-height: 1.6;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
 header {
@@ -14,6 +19,7 @@ header {
     background-color: #e6f2ff; 
     text-align: center; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1100px;
 }
 
 footer {
@@ -24,6 +30,7 @@ footer {
     background-color: #e6f2ff; 
     text-align: center; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1100px;
 }
 
 /* Stile per le sezioni */
@@ -34,6 +41,7 @@ section {
     border-radius: 10px;
     background-color: #f9f9f9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1100px;
 }
 
 /* Stile per le citazioni */
@@ -59,7 +67,7 @@ a {
 }
 p {
     margin: 10px 0;
-    font-size: 0.9em;
+    font-size: 1rem;
     color: #000; /* Nero puro */
 }
     a:hover {
@@ -151,6 +159,108 @@ img {
     margin: 20px;
     background-color: #f9f9f9;
     text-align: right;
+}
+
+.youtube-feature {
+    color: #f7f7f7;
+    background: linear-gradient(135deg, #08111d, #17283a);
+    border-color: #d49a3a;
+    text-align: center;
+}
+
+.youtube-page > header {
+    color: #f7f7f7;
+    background: linear-gradient(135deg, #08111d, #17283a);
+    border-color: #d49a3a;
+}
+
+.youtube-page > header p,
+.youtube-page > header a:not(.button-link) {
+    color: #e4e8ec;
+}
+
+.youtube-feature h2,
+.youtube-page h1,
+.youtube-page h2 {
+    color: #e1a548;
+}
+
+.youtube-feature p,
+.youtube-page .intro {
+    color: #e4e8ec;
+}
+
+.button-link {
+    display: inline-block;
+    margin: 12px 6px 0;
+    padding: 11px 20px;
+    border-radius: 6px;
+    background: #b62025;
+    color: #fff;
+    font-weight: bold;
+}
+
+.button-link:hover {
+    color: #fff;
+    background: #d42b31;
+    text-decoration: none;
+}
+
+.button-link.secondary {
+    background: #324b63;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.video-card {
+    overflow: hidden;
+    border: 1px solid #506477;
+    border-radius: 10px;
+    background: #101c29;
+}
+
+.video-card-content {
+    padding: 18px;
+}
+
+.video-card h2 {
+    margin-top: 0;
+    text-align: left;
+}
+
+.video-card p {
+    color: #e4e8ec;
+}
+
+.video-frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000;
+}
+
+.video-frame iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 640px) {
+    header, section, footer {
+        margin: 12px;
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
 }
 
 
