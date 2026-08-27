@@ -265,6 +265,64 @@ img {
     letter-spacing: .03em;
 }
 
+.mormon-feature {
+    border-color: #8a673d;
+    background: linear-gradient(160deg, #fbf7ef, #eee4d3);
+}
+
+.mormon-feature h2 {
+    color: #6f3f1d;
+}
+
+.mormon-feature .eyebrow,
+.mormon-feature .topic-tags {
+    color: #7b4a25 !important;
+}
+
+.scripture-full {
+    margin: 22px 0;
+    border: 1px solid #b89a72;
+    border-radius: 8px;
+    background: #fffdf8;
+    overflow: hidden;
+}
+
+.scripture-full summary {
+    padding: 15px 18px;
+    color: #58361f;
+    background: #e8d9c2;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.scripture-full summary:hover,
+.scripture-full summary:focus-visible {
+    background: #ddc9aa;
+}
+
+.scripture-note {
+    margin: 18px 22px 6px;
+    padding: 12px;
+    border-left: 4px solid #9b6a36;
+    background: #f4ede2;
+    font-size: .88rem;
+}
+
+.scripture-verses {
+    margin: 12px 22px 24px 54px;
+    padding: 0;
+}
+
+.scripture-verses li {
+    margin-bottom: 11px;
+    padding-left: 5px;
+}
+
+.scripture-verses li::marker {
+    color: #7b4a25;
+    font-weight: bold;
+}
+
 .darkness-quotes {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

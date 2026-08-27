@@ -107,3 +107,14 @@ function generaArticoloSection(content) {
     return section;
 }
 
+// Mantiene la sequenza editoriale: Plutarco, catastrofe mormone, discesa messianica.
+document.addEventListener("DOMContentLoaded", function () {
+    const mormonSection = document.querySelector(".mormon-feature--staged");
+    const plutarcoSection = document.querySelector('[data-section="plutarco"]');
+
+    if (mormonSection && plutarcoSection) {
+        plutarcoSection.insertAdjacentElement("afterend", mormonSection);
+        mormonSection.classList.remove("mormon-feature--staged");
+    }
+});
+
