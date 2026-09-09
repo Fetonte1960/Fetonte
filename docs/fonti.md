@@ -71,21 +71,22 @@ Ogni nuova fonte deve essere registrata usando questa struttura:
 
 ### F-001 — Platone, racconto di Fetonte
 
-- **Stato:** Identificata
+- **Stato:** Verificata nel testo; storicità della cornice controversa
 - **Livello:** 1
 - **Autore o ente:** Platone
-- **Opera o reperto:** *Timeo*
-- **Passo o identificatore:** 22c–d, da verificare sull'edizione adottata
+- **Opera o reperto:** *Timeo* e *Crizia*
+- **Passo o identificatore:** *Timeo* 20d–25d, in particolare 22b–23c; *Crizia* 113a–b
 - **Data di composizione:** IV secolo a.C.
-- **Edizione consultata:** Da registrare
-- **Traduzione utilizzata:** La versione attualmente pubblicata sul sito deve essere ricondotta alla relativa edizione
+- **Edizione consultata:** Francesco Acri, 1889, su Wikisource; testo greco ed edizione Bury su Perseus per *Crizia* 113a–b
+- **Traduzione utilizzata:** Acri per il *Timeo*; traduzione redazionale controllata per *Crizia* 113a–b
 - **Lingua originale:** Greco antico
-- **Affermazione sostenuta:** Il mito di Fetonte viene interpretato nel dialogo come racconto di deviazioni celesti e distruzioni periodiche mediante il fuoco.
+- **Affermazione sostenuta:** Il mito di Fetonte viene interpretato come deviazione celeste e incendio terrestre; il dialogo parla di distruzioni ricorrenti per fuoco e acqua e di scritti di Solone conservati nella famiglia di Dropide.
 - **Interpretazione del progetto:** Possibile memoria mitizzata di un fenomeno cosmico catastrofico.
 - **Spiegazioni alternative:** Costruzione filosofica, cosmologica o mitologica non riconducibile a un singolo evento storico.
-- **Attendibilità della conclusione:** Possibile
+- **Limiti:** Platone non nomina Sonchis; non possediamo gli scritti di Solone né il documento egizio; il testo non identifica asteroide, collisione o passaggio atmosferico. La lettura storica di Atlantide è minoritaria rispetto all'interpretazione filosofico-letteraria.
+- **Attendibilità della conclusione:** Contenuto cosmico attestato; storicità della trasmissione possibile ma non dimostrata; identificazione col Distruttore speculativa
 - **Usata in:** `index.html`; `testistorici/fetonte_dialoghi_di_platone.html`
-- **Prossima verifica:** Individuare testo greco, edizione critica e traduzione italiana effettivamente citata.
+- **Prossima verifica:** Collazionare *parállaxis* nelle edizioni critiche e documentare la storia manoscritta dei dialoghi.
 
 ### F-002 — Plinio il Vecchio, cometa chiamata Tifone
 
