@@ -1183,6 +1183,59 @@ Ogni nuova fonte deve essere registrata usando questa struttura:
 - **Collegamento:** [Brill](https://brill.com/view/journals/jane/15/1/article-p20_3.xml)
 - **Usata in:** `dossier-generale-tifone.md`.
 
+### F-090 — Esodo, tre giorni di tenebre
+
+- **Stato:** Verificata
+- **Livello:** 1
+- **Opera o reperto:** *Esodo* 10,21-23
+- **Edizione consultata:** Giovanni Diodati, edizione 1821/1885 su Wikisource
+- **Affermazione sostenuta:** Il racconto dichiara tenebre palpabili in Egitto per tre giorni e luce nelle dimore israelite.
+- **Problemi e limiti:** Il testo non identifica la causa fisica; natura, datazione e storicità dell'episodio richiedono un dossier autonomo.
+- **Attendibilità della conclusione:** Durata attestata nel testo; causa Fetonte speculativa.
+- **Usata in:** `approfondimenti/tre-giorni-di-buio.html`.
+
+### F-091 — Corpus profetico biblico degli oscuramenti
+
+- **Stato:** Verificata nei passi censiti
+- **Livello:** 1
+- **Passi:** Isaia 13,9-13; 24,18-23; Gioele 2,1-2.10.30-31; Amos 5,18-20; 8,9; Ezechiele 32,7-8; Sofonia 1,14-16.
+- **Edizione consultata:** Giovanni Diodati, edizione 1821/1885 su Wikisource
+- **Affermazione sostenuta:** Il Giorno del Signore è associato a oscuramento diurno, Sole e Luna alterati, fuoco, fumo e Terra scossa.
+- **Problemi e limiti:** Nessuno dei passi censiti assegna all'oscurità una durata di tre giorni; genere profetico, metafora politica e dipendenze letterarie impediscono una lettura fisica automatica.
+- **Attendibilità della conclusione:** Motivi testuali attestati; identità con un unico fenomeno speculativa.
+- **Usata in:** `approfondimenti/tre-giorni-di-buio.html`.
+
+### F-092 — Corpus neotestamentario degli oscuramenti
+
+- **Stato:** Verificata nei passi censiti
+- **Livello:** 1
+- **Passi:** Matteo 24,29-30; Marco 13,24-26; Luca 21,25-27; Atti 2,17-21; Apocalisse 6,12-14; 8,12; 9,1-2; 16,10-11; Matteo 27,45 e paralleli.
+- **Affermazione sostenuta:** I testi associano oscuramento, stelle cadenti, terremoto, fumo e venuta o giudizio divino.
+- **Problemi e limiti:** Atti cita Gioele; i Sinottici condividono una tradizione; l'Apocalisse rielabora il lessico profetico. Le tenebre della crocifissione durano tre ore, non tre giorni.
+- **Attendibilità della conclusione:** Testi attestati; indipendenza multipla e identità fisica non dimostrate.
+- **Usata in:** `approfondimenti/tre-giorni-di-buio.html`.
+
+### F-093 — 3 Nefi, catastrofe e tre giorni di oscurità
+
+- **Stato:** Controversa
+- **Livello:** 1 per il testo; 6 per la pretesa antichità
+- **Opera o reperto:** *Book of Mormon*, 3 Nephi 8, edizione inglese del 1830 e edizione ufficiale moderna
+- **Affermazione sostenuta:** La narrazione unisce catastrofe, nebbia tenebrosa e assenza di luce per tre giorni.
+- **Problemi e limiti:** Pubblicato nel 1830; la pretesa provenienza antica non è accettata come dimostrata dalla ricerca storica convenzionale e il linguaggio biblico può spiegare le analogie.
+- **Attendibilità della conclusione:** Contenuto attestato nel testo; testimonianza antica indipendente non dimostrata.
+- **Usata in:** homepage e `approfondimenti/tre-giorni-di-buio.html`.
+
+### F-094 — Tradizione moderna dei tre giorni di buio
+
+- **Stato:** Controversa
+- **Livello:** 5-6
+- **Testimoni attribuiti:** Anna Maria Taigi; Marie-Julie Jahenny; Alois Irlmaier; attribuzioni secondarie a Canori Mora, Gaspare del Bufalo, Palma d'Oria, Padre Pio, Elena Aiello e Faustina Kowalska.
+- **Prime attestazioni controllate:** Biografie di Anna Maria Taigi del 1872-1873; successive raccolte devozionali e profetiche; pubblicazioni del dopoguerra per Irlmaier.
+- **Affermazione sostenuta:** Una tradizione moderna annuncia tre giorni o 72 ore di oscurità, spesso con aria o polvere pericolosa e permanenza al chiuso.
+- **Problemi e limiti:** Molte formulazioni non sono autografe; alcune attribuzioni non hanno un originale rintracciabile. Beatificazione o santità non autenticano ogni messaggio attribuito.
+- **Attendibilità della conclusione:** Esistenza della tradizione attestata; autenticità delle singole formulazioni variabile o non verificata; connessione Fetonte speculativa.
+- **Usata in:** `approfondimenti/tre-giorni-di-buio.html`.
+
 ## Affermazioni prioritarie prive di dossier
 
 Le seguenti affermazioni della homepage richiedono fonti dedicate prima di essere considerate documentate:
