@@ -47,7 +47,7 @@ Prima di essere pubblicati richiedono un controllo specifico delle fonti:
 4. Tifone: testi, geografia e cronologia;
 5. solfati nei ghiacci groenlandesi e loro datazione;
 6. finestre candidate del 1650 e del 2100 a.C.;
-7. Kolbrin: provenienza e dipendenze testuali prima di qualunque uso probatorio.
+7. Kolbrin: dipendenze testuali e dattiloscritti anteriori alle edizioni pubblicate.
 
 ## Secondo gruppo pubblicabile: Diluvio e Sodoma
 
@@ -69,3 +69,10 @@ Prima di essere pubblicati richiedono un controllo specifico delle fonti:
 - Collegamento al video come approfondimento audiovisivo, mai come fonte della tesi.
 - Fonti di controllo vicine alle affermazioni che sostengono.
 - Nessuna moltiplicazione di pagine finché il materiale non offre contenuto autonomo e verificabile.
+
+## Terzo dossier pubblicabile: Bibbia di Kolbrin
+
+- `approfondimenti/bibbia-kolbrin.html`
+- Funzione: spiegare contenuto, origine editoriale documentabile, mancata autenticazione storica e ragioni dell'interesse del progetto.
+- Corpus controllato: PDF inglese di 183 pagine, con censimento completo delle occorrenze di “Destroyer” e controllo visivo delle pagine 178–182.
+- Conclusione corrente: il corpus moderno e le sue descrizioni sono attestati; la derivazione da fonti egizie o celtiche antiche e l'indipendenza rispetto alle tradizioni note non sono dimostrate.

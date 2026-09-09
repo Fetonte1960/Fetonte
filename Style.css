@@ -419,6 +419,28 @@ img {
     margin: 18px 0;
 }
 
+.research-figure {
+    max-width: 900px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.research-figure img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    margin: 0 auto 10px;
+}
+
+.research-figure--document {
+    max-width: 720px;
+}
+
+.research-figure figcaption {
+    color: #4e5660;
+    font-size: .9rem;
+}
+
 .video-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
