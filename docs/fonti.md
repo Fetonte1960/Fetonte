@@ -1203,6 +1203,7 @@ Ogni nuova fonte deve essere registrata usando questa struttura:
 - **Edizione consultata:** Giovanni Diodati, edizione 1821/1885 su Wikisource
 - **Affermazione sostenuta:** Il Giorno del Signore è associato a oscuramento diurno, Sole e Luna alterati, fuoco, fumo e Terra scossa.
 - **Problemi e limiti:** Nessuno dei passi censiti assegna all'oscurità una durata di tre giorni; genere profetico, metafora politica e dipendenze letterarie impediscono una lettura fisica automatica.
+- **Dossier:** `approfondimenti/profeti-apocalittici.html`, con Isaia, Gioele, Amos, Ezechiele, Sofonia, Naum, Abacuc e Zaccaria; citazioni dalla Diodati 1821 e confronto filologico da proseguire sul testo ebraico.
 - **Attendibilità della conclusione:** Motivi testuali attestati; identità con un unico fenomeno speculativa.
 - **Usata in:** `approfondimenti/tre-giorni-di-buio.html`.
 
