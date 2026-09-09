@@ -49,6 +49,17 @@ Prima di essere pubblicati richiedono un controllo specifico delle fonti:
 6. finestre candidate del 1650 e del 2100 a.C.;
 7. Kolbrin: provenienza e dipendenze testuali prima di qualunque uso probatorio.
 
+## Secondo gruppo pubblicabile: Diluvio e Sodoma
+
+- `approfondimenti/diluvio-2100-fetonte.html`
+  - finestra editoriale: circa 2100–2000 a.C.; finestra comparativa reale: 2200–1900 a.C.;
+  - distingue data tradizionale del *Seder Olam*, evento 4,2 ka, caduta di Ur e piena di Jishi Gorge;
+  - il modello di un Diluvio locale armeno causato da Fetonte rimane speculativo e non ancora quantificato.
+- `approfondimenti/sodoma-tall-el-hammam-1650.html`
+  - finestra archeologica: 1750–1650 a.C.;
+  - separa distruzione di Tall el-Hammam, identificazione con Sodoma, ipotesi airburst, Secondo Periodo Intermedio e formazione hyksos;
+  - registra esplicitamente la ritrattazione del 2025 e il problema dell'indipendenza del Kolbrin.
+
 ## Regole SEO e redazionali
 
 - Una domanda principale e un titolo univoco per pagina.
@@ -58,4 +69,3 @@ Prima di essere pubblicati richiedono un controllo specifico delle fonti:
 - Collegamento al video come approfondimento audiovisivo, mai come fonte della tesi.
 - Fonti di controllo vicine alle affermazioni che sostengono.
 - Nessuna moltiplicazione di pagine finché il materiale non offre contenuto autonomo e verificabile.
-
