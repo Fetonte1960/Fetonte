@@ -190,6 +190,31 @@ img {
     color: #e4e8ec;
 }
 
+.research-entry {
+    display: grid;
+    grid-template-columns: minmax(280px, .9fr) minmax(0, 1.25fr);
+    align-items: center;
+    gap: 28px;
+    border-color: #8a673d;
+    background: linear-gradient(145deg, #fffaf1, #eee2cf);
+}
+
+.research-entry .image-container {
+    margin-bottom: 0;
+}
+
+.research-entry img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(31, 23, 16, .25);
+}
+
+.research-entry h2 {
+    color: #6f3f1d;
+}
+
 .button-link {
     display: inline-block;
     margin: 12px 6px 0;
@@ -575,7 +600,8 @@ img {
 
     .darkness-feature,
     .darkness-quotes,
-    .date-summary-grid {
+    .date-summary-grid,
+    .research-entry {
         grid-template-columns: 1fr;
     }
 

@@ -1238,6 +1238,19 @@ Ogni nuova fonte deve essere registrata usando questa struttura:
 - **Attendibilità della conclusione:** Esistenza della tradizione attestata; autenticità delle singole formulazioni variabile o non verificata; connessione Fetonte speculativa.
 - **Usata in:** `approfondimenti/tre-giorni-di-buio.html`.
 
+### F-095 — Ragnarök, Fimbulvetr e catastrofe cosmica norrena
+
+- **Stato:** Fonti identificate; interpretazione fisica controversa
+- **Livello:** 1 per i testi medievali; 3-4 per la memoria di eventi naturali; 6 per l'identificazione con Fetonte
+- **Opere:** *Völuspá*, in particolare la strofa 57 nella numerazione corrente; *Vafþrúðnismál* 44-47; Snorri Sturluson, *Gylfaginning* 51-53
+- **Manoscritti e datazione:** Edda poetica conservata principalmente nel *Codex Regius* del XIII secolo; componimenti probabilmente anteriori ma di datazione discussa. Edda in prosa composta da Snorri nel XIII secolo.
+- **Affermazione sostenuta:** La tradizione riunisce grande inverno, Sole nero o divorato, scomparsa delle stelle, terremoti, montagne in rovina, alberi divelti, mare sulle terre, agente infuocato in movimento e incendio del mondo.
+- **Dipendenze:** Snorri utilizza ampiamente i poemi eddici e non costituisce una conferma indipendente; sono discusse influenze cristiane sulla *Völuspá*.
+- **Spiegazioni alternative:** Escatologia mitica; motivi indoeuropei e cristiani; fusione di eruzioni, terremoti e maremoti; possibile memoria della crisi climatica del 536-540 d.C.
+- **Attendibilità della conclusione:** Sequenza catastrofica attestata; memoria di una o più catastrofi naturali plausibile; origine nell'Età del Bronzo e identità col Distruttore speculative.
+- **Usata in:** bozza locale `approfondimenti/ragnarok-fimbulvetr-catastrofe.html`; entry point locale nella homepage.
+- **Prossima verifica:** Collazionare numerazione e varianti di *Völuspá* fra *Codex Regius* e *Hauksbók*; adottare un'edizione critica e verificare i termini *eimi* e *aldrnari* prima di pubblicare una traduzione definitiva.
+
 ## Affermazioni prioritarie prive di dossier
 
 Le seguenti affermazioni della homepage richiedono fonti dedicate prima di essere considerate documentate:
