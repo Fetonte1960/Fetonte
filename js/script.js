@@ -116,5 +116,10 @@ document.addEventListener("DOMContentLoaded", function () {
         plutarcoSection.insertAdjacentElement("afterend", mormonSection);
         mormonSection.classList.remove("mormon-feature--staged");
     }
-});
 
+    // Titolo principale della home.
+    const homeTitle = document.querySelector("body > header h1");
+    if (homeTitle) {
+        homeTitle.textContent = "Fetonte l'asteroide distruttore";
+    }
+});
