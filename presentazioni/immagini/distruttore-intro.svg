@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="Illustrazione originale di un corpo celeste luminoso sopra un paesaggio antico">
+<defs>
+<radialGradient id="sky" cx=".72" cy=".15" r=".9"><stop stop-color="#28425d"/><stop offset=".62" stop-color="#0c1d32"/><stop offset="1" stop-color="#060f20"/></radialGradient>
+<radialGradient id="halo"><stop stop-color="#fff4c0"/><stop offset=".28" stop-color="#ffae4c"/><stop offset=".65" stop-color="#f36b24" stop-opacity=".55"/><stop offset="1" stop-color="#e4491b" stop-opacity="0"/></radialGradient>
+<linearGradient id="flame" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#e75a28" stop-opacity=".12"/><stop offset=".38" stop-color="#ff9448" stop-opacity=".9"/><stop offset=".76" stop-color="#fff1b6"/><stop offset="1" stop-color="#ffde7e"/></linearGradient>
+<linearGradient id="ground" x2=".4" y2="1"><stop stop-color="#1b2939"/><stop offset="1" stop-color="#050c14"/></linearGradient>
+<linearGradient id="page"><stop stop-color="#8d5c31"/><stop offset=".46" stop-color="#e2bb83"/><stop offset="1" stop-color="#b78353"/></linearGradient>
+<linearGradient id="cover" x2="0" y2="1"><stop stop-color="#543423"/><stop offset="1" stop-color="#21160f"/></linearGradient>
+<filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="16"/></filter>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+<pattern id="stars" width="175" height="145" patternUnits="userSpaceOnUse"><circle cx="21" cy="36" r="1.3" fill="#cfd9ec" opacity=".8"/><circle cx="87" cy="117" r=".8" fill="#eef4ff" opacity=".6"/><circle cx="155" cy="21" r="1.2" fill="#cfd9ec" opacity=".56"/></pattern>
+</defs>
+<rect width="900" height="900" rx="40" fill="url(#sky)"/><rect width="900" height="710" fill="url(#stars)"/>
+<g opacity=".28"><path d="M-20 490Q170 380 335 440T675 412T930 450" fill="none" stroke="#637a9b" stroke-width="2"/><path d="M-40 540Q205 470 350 522T920 494" fill="none" stroke="#a1b2c1"/></g>
+<path d="M-15 630Q140 555 280 602T540 575T915 607L920 910H-10Z" fill="url(#ground)"/>
+<path d="M-15 735Q135 673 287 710T580 693T915 710" fill="none" stroke="#976638" stroke-opacity=".32" stroke-width="8" filter="url(#soft)"/>
+<g opacity=".38" fill="#08131c"><path d="M115 623v-85l10-8h37l9 9v84h-18v-76h-20v76z"/><path d="M180 620v-117l18-15h57l18 15v117h-16V513h-61v107z"/><path d="M289 625v-61h13v-34h55v33h15v62z"/></g>
+<path d="M112 18L579 301" stroke="#ed6c2f" stroke-width="95" opacity=".27" filter="url(#glow)"/>
+<path d="M73-18Q278 87 564 297Q372 188 168 116L0 84Z" fill="url(#flame)" opacity=".55"/>
+<path d="M195 8Q415 180 582 307Q354 204 275 148Z" fill="url(#flame)" opacity=".66"/>
+<path d="M328 13L573 313L451 196Z" fill="#fff0a4" opacity=".65"/>
+<circle cx="603" cy="331" r="135" fill="url(#halo)" filter="url(#glow)"/>
+<circle cx="603" cy="331" r="90" fill="url(#halo)"/>
+<path d="M549 284l25-34 47-14 45 22 26 47-7 61-49 40-59-6-45-47-9-43Z" fill="#2d241c" stroke="#ffc56e" stroke-width="8"/>
+<path d="M547 286l36 27 48-13 26 34-19 61-45-15-27-44Z" fill="#7e4229"/>
+<path d="M573 250l6 45 40 6 44-35M541 336l36 17 16 46M634 303l30 30 24-14" fill="none" stroke="#ffaa59" stroke-width="7" opacity=".92"/>
+<g transform="translate(74 616) rotate(-6 355 180)">
+<ellipse cx="385" cy="236" rx="368" ry="64" fill="#02070b" opacity=".7" filter="url(#soft)"/>
+<path d="M38 80Q183 24 377 96Q562 25 748 78L736 294Q552 252 370 319Q191 252 51 297Z" fill="url(#cover)" stroke="#b87e4f" stroke-width="11"/>
+<path d="M52 66Q206 8 376 89L377 288Q206 216 61 272Z" fill="url(#page)" stroke="#f2c78d" stroke-width="5"/>
+<path d="M377 89Q541 2 732 70L717 265Q555 212 377 288Z" fill="url(#page)" stroke="#f2c78d" stroke-width="5"/>
+<path d="M377 88L377 300" stroke="#62422a" stroke-width="11"/>
+<path d="M82 99Q210 60 339 119M82 134Q217 99 339 157M79 169Q223 132 345 190M83 206Q213 170 344 228" stroke="#745137" stroke-width="5" stroke-linecap="round" fill="none" opacity=".5"/>
+<path d="M421 119Q553 59 691 109M419 157Q553 101 693 148M415 192Q552 137 692 186M419 226Q555 170 692 222" stroke="#745137" stroke-width="5" stroke-linecap="round" fill="none" opacity=".5"/>
+</g>
+</svg>
