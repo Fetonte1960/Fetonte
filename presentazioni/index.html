@@ -2,8 +2,8 @@
 <html lang="it">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Presentazioni | Fetonte il Distruttore</title>
-<meta name="description" content="Presentazione sperimentale Fetonte: cronologia e fonti antiche.">
+<title>Il Distruttore nella Kolbrin | Fetonte il Distruttore</title>
+<meta name="description" content="Video in preparazione: catastrofismo, reverse engineering e Bibbia di Kolbrin.">
 <style>
 :root{color-scheme:dark;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
 *{box-sizing:border-box}body{margin:0;background:#07121f;color:#f6f0e6;overflow:hidden}
@@ -32,6 +32,19 @@ em{color:#f1c57d;font-style:normal}.source{font-size:clamp(.8rem,1.1vw,1rem);col
 .citazione-immagine figcaption{color:#aebccb;text-align:right;font-size:clamp(.75rem,.95vw,1.05rem);line-height:1.4;margin-top:12px}
 @media(max-width:720px){.slide--citazione{grid-template-columns:1fr;gap:12px;min-height:75vh}.citazione-testo{gap:12px;padding-block:0}.citazione-brano{font-size:clamp(1.65rem,5vw,2.7rem)}.citazione-immagine img{height:min(28vh,250px)}}
 
+
+/* Apertura del documentario: testo essenziale e immagine di progetto */
+.slide--apertura{width:min(1450px,100%);grid-template-columns:minmax(0,1.55fr) minmax(220px,.8fr);align-items:center;gap:clamp(20px,4vw,70px);min-height:76vh}
+.intro-copy{display:flex;flex-direction:column;gap:clamp(20px,2.8vw,45px);min-width:0}
+.intro-copy h1,.intro-copy h2{line-height:1.1}
+.intro-copy p{font-size:clamp(1.3rem,2.4vw,2.55rem);line-height:1.45;color:#e0e6eb}
+.intro-visual{margin:0;align-self:center;text-align:center}
+.intro-visual img{width:min(100%,500px);aspect-ratio:1;object-fit:contain;border-radius:28px;box-shadow:0 25px 80px #0009}
+.intro-visual figcaption{margin-top:14px;font-size:clamp(.75rem,.95vw,1rem);line-height:1.35;color:#a8b7c6}
+.intro-note{font-size:clamp(.85rem,1.15vw,1.15rem);line-height:1.45;color:#b5c6d4}
+.intro-note a{color:#f0c477}
+@media(max-width:760px){.slide--apertura{grid-template-columns:1fr;gap:10px}.intro-copy{gap:12px}.intro-copy h1{font-size:clamp(2rem,7vw,3rem)}.intro-visual img{width:min(50vw,220px)}}
+
 @keyframes fade{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:600px){main{padding:8vw}.slide{min-height:70vh}.timeline{gap:.6rem}.event{padding:.7rem}}
 @media(prefers-reduced-motion:reduce){.slide{animation:none}}
@@ -39,21 +52,24 @@ em{color:#f1c57d;font-style:normal}.source{font-size:clamp(.8rem,1.1vw,1rem);col
 </head>
 <body>
 <main id="stage" tabindex="-1" aria-live="polite">
-<section class="slide active"><img class="logo" src="../immagini/fetonte.png" alt=""><div class="eyebrow">Fetonte il Distruttore · Presentazione di prova</div><h1>Le catastrofi dell’<em>Età del Bronzo</em></h1><p>Un viaggio tra testi antichi, archeologia e ipotesi ancora aperte.</p></section>
-<section class="slide"><div class="eyebrow">La domanda</div><h2>Un solo evento o <em>catastrofi differenti?</em></h2><p>Il racconto del Diluvio di Sisuda nella Kolbrin ci invita a confrontare tradizioni e testimonianze materiali, senza dare per dimostrata la loro identità.</p><div class="source">Kolbrin, Book of Gleanings, cap. 4 — The Deluge</div></section>
-<section class="slide slide--citazione" aria-label="Esempio di citazione testuale">
-  <div class="citazione-testo">
-    <div class="eyebrow">La Kolbrin · Il Diluvio</div>
-    <blockquote class="citazione-brano" lang="it">«Là, su una grande nube nera e turbinante, giunse il Distruttore.»</blockquote>
-    <div class="citazione-fonte">Kolbrin, <i>Book of Gleanings</i>, cap. 4, «The Deluge», p. 36 del PDF · traduzione italiana del progetto<br><a href="https://github.com/Fetonte1960/Fetonte/blob/main/kolbrin/kolbrin-extracted.txt" target="_blank" rel="noopener noreferrer">Testo originale inglese</a></div>
+<section class="slide active slide--apertura" aria-label="Apertura del documentario">
+  <div class="intro-copy">
+    <div class="eyebrow">Fetonte il Distruttore · Video in preparazione</div>
+    <h1>Il nostro canale si occupa di <em>catastrofismo.</em></h1>
+    <p>Le testimonianze antiche come punto di partenza della ricerca.</p>
+    <div class="intro-note">Fetonte.it · Racconto e ricerca</div>
   </div>
-  <figure class="citazione-immagine">
-    <img src="../immagini/fetonte.png" alt="Illustrazione evocativa del corpo celeste Fetonte" loading="lazy">
-    <figcaption>Illustrazione evocativa · Fetonte.it<br>Non è una testimonianza storica dell'evento</figcaption>
-  </figure>
+  <figure class="intro-visual"><img src="../immagini/fetonte.png" alt="Illustrazione evocativa del Distruttore, dal sito Fetonte.it"><figcaption>Illustrazione del progetto Fetonte · immagine evocativa, non reperto storico</figcaption></figure>
 </section>
-<section class="slide"><div class="eyebrow">Cronologia orientativa</div><h2>Quattro momenti da distinguere</h2><div class="timeline"><div class="event"><div class="year">2900 a.C.</div><small>Diluvio di Ziusudra: datazione di lavoro del progetto</small></div><div class="event"><div class="year">2350 a.C.</div><small>Depositi studiati da Courty: cronologia proposta</small></div><div class="event"><div class="year">2200 a.C.</div><small>Crisi climatica del 4,2 ka, circa</small></div><div class="event"><div class="year">2100 a.C.</div><small>Ipotesi del passaggio di Fetonte</small></div></div></section>
-<section class="slide"><div class="eyebrow">La ricerca continua</div><h2>Le coincidenze sono <em>domande</em>, non ancora risposte.</h2><p>Confrontiamo fonti, cronologie e geografia per capire quali eventi possano essere collegati e quali debbano restare distinti.</p><p class="source">fetonte.it · Presentazione sperimentale</p></section>
+<section class="slide slide--apertura" aria-label="La Bibbia di Kolbrin nella ricerca">
+  <div class="intro-copy">
+    <div class="eyebrow">Fonti e reverse engineering</div>
+    <h2>La <em>Bibbia di Kolbrin</em></h2>
+    <p>Nelle sue pagine abbiamo trovato descrizioni di un misterioso <strong>asteroide distruttore.</strong></p>
+    <div class="intro-note"><a href="https://github.com/Fetonte1960/Fetonte/blob/main/kolbrin/kolbrin-extracted.txt" target="_blank" rel="noopener noreferrer">Testo integrale della Kolbrin</a> · La lettura come corpo celeste è un'interpretazione della ricerca</div>
+  </div>
+  <figure class="intro-visual"><img src="../immagini/fetonte.png" alt="Illustrazione evocativa dell'asteroide Fetonte"><figcaption>Illustrazione del progetto Fetonte · immagine evocativa</figcaption></figure>
+</section>
 </main>
 <script>
 const slides=[...document.querySelectorAll('.slide')];let index=0;
