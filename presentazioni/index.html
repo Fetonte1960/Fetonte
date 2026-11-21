@@ -25,7 +25,7 @@ em{color:#f1c57d;font-style:normal}.source{font-size:clamp(.8rem,1.1vw,1rem);col
 </style>
 </head>
 <body>
-<main aria-live="polite">
+<main id="stage" tabindex="-1" aria-live="polite">
 <section class="slide active"><img class="logo" src="../immagini/fetonte.png" alt=""><div class="eyebrow">Fetonte il Distruttore · Presentazione di prova</div><h1>Le catastrofi dell’<em>Età del Bronzo</em></h1><p>Un viaggio tra testi antichi, archeologia e ipotesi ancora aperte.</p></section>
 <section class="slide"><div class="eyebrow">La domanda</div><h2>Un solo evento o <em>catastrofi differenti?</em></h2><p>Il racconto del Diluvio di Sisuda nella Kolbrin ci invita a confrontare tradizioni e testimonianze materiali, senza dare per dimostrata la loro identità.</p><div class="source">Kolbrin, Book of Gleanings, cap. 4 — The Deluge</div></section>
 <section class="slide"><div class="eyebrow">Cronologia orientativa</div><h2>Quattro momenti da distinguere</h2><div class="timeline"><div class="event"><div class="year">2900 a.C.</div><small>Diluvio di Ziusudra: datazione di lavoro del progetto</small></div><div class="event"><div class="year">2350 a.C.</div><small>Depositi studiati da Courty: cronologia proposta</small></div><div class="event"><div class="year">2200 a.C.</div><small>Crisi climatica del 4,2 ka, circa</small></div><div class="event"><div class="year">2100 a.C.</div><small>Ipotesi del passaggio di Fetonte</small></div></div></section>
@@ -34,7 +34,9 @@ em{color:#f1c57d;font-style:normal}.source{font-size:clamp(.8rem,1.1vw,1rem);col
 <script>
 const slides=[...document.querySelectorAll('.slide')];let index=0;
 function show(n){index=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,i)=>{s.classList.toggle('active',i===index);s.setAttribute('aria-hidden',i!==index)});history.replaceState(null,'','#'+(index+1))}
-document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(index+1)}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(index-1)}else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1);else if(e.key.toLowerCase()==='f')(document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen())});
+window.addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(index+1)}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(index-1)}else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1);else if(e.key.toLowerCase()==='f')(document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen())});
+document.getElementById('stage').addEventListener('pointerdown',()=>document.getElementById('stage').focus());
 show((parseInt(location.hash.slice(1),10)||1)-1);
+document.getElementById('stage').focus({preventScroll:true});
 </script>
 </body></html>
