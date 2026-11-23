@@ -52,6 +52,7 @@ Questa è la **tesi centrale del progetto per il video**, non una conclusione gi
 - **Archivio ordinato delle scene e dei testi:** [scene.js](scene.js)
 - **Copione sincronizzato:** [copione.html](copione.html)
 - **File grafici:** nella presente cartella del video e, se necessario, nella sottocartella [immagini/](immagini/).
+- **Trascrizione precedente video sulla tettonica transglaciale:** [Trascrizione - tettonica transglaciale.md](Trascrizione%20-%20tettonica%20transglaciale.md). Testo estratto da sottotitoli automatici, **senza timestamp e non revisionato linguisticamente**; utile come documento di riferimento per la ricostruzione geografica su Atlantide, Giza e lago Tritonide.
 
 **Non cambiare gli URL** e non modificare la presentazione precedente in `/presentazioni/`. Il documentario ha il suo spazio indipendente in `video/Gli argonauti nel lago Tritonide/`.
 
@@ -169,6 +170,9 @@ Scena di solo testo:
 - Conservare la cronologia delle decisioni nel README o nel diario di ricerca quando si rivedono regole importanti.
 
 ## 8. Stato del lavoro e decisione del 23 novembre 2026
+
+- **Consolidamento trascrizione:** archiviato in questa cartella il parlato di un precedente video su tettonica transglaciale e Atlantide nel Sahara, ricomposto dai sottotitoli automatici senza codici temporali (957 segmenti, circa 48 minuti). Testo da correggere contro il video originale prima di usarne brani come citazioni puntuali.
+
 
 - Sito di appoggio e copione creati nel repository pubblico `Fetonte1960/Fetonte`.
 - `scene.js` contiene attualmente soltanto **la copertina testuale provvisoria**.
