@@ -1,6 +1,6 @@
 # Gli Argonauti nel lago Tritonide — regole editoriali e tecniche
 
-**Versione locale:** 1.3 — 23 novembre 2026  
+**Versione locale:** 1.4 — 23 novembre 2026  
 **Stato:** istruzioni operative per la realizzazione e l'aggiornamento del sito di appoggio del documentario **Fetonte il Distruttore**.  
 **Ogni video ha un proprio README con le decisioni editoriali specifiche.** Questo documento è il riferimento da rileggere prima di modificare i file di questo video; non sostituisce le [regole generali del progetto](https://github.com/Fetonte1960/sviluppo-privato/blob/main/fetonte/REGOLE-EDITORIALI-VIDEO.md): specifica le scelte per questo episodio e prevale sulle impostazioni generiche quando esse descrivono una presentazione di prova diversa.
 
@@ -22,12 +22,27 @@ Questa è la **tesi centrale del progetto per il video**, non una conclusione gi
 ### Fonti antiche da leggere e citare
 
 - **Diodoro Siculo, `Biblioteca storica`, III, 53–55, in particolare III, 55, 3**: la tradizione delle Amazzoni libiche colloca la palude Tritonide nel racconto; il passo 55, 3 dice che la palude scomparve nel corso di un terremoto, quando le parti verso l'oceano furono lacerate. Testo consultato: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/3D%2A.html
-- **Erodoto, `Storie`, IV, 178–179**: il fiume Tritone e il lago Tritonide; Giasone e gli Argonauti nelle secche del lago e la via per uscirne. Testo consultato: https://lexundria.com/hdt/4.179/mcly e https://lexundria.com/hdt/4.178.1/mcly
-- **Erodoto sull'Egitto**: i passi da leggere nel documentario saranno individuati e verificati puntualmente (libro/paragrafo, edizione e traduzione) prima della creazione delle slide. Non attribuire a Erodoto una descrizione del sollevamento di Giza o della frattura senza un testo preciso.
+- **Apollonio Rodio, `Argonautiche`, libro IV, vv. 1228–1392 e 1537–1622 circa**: Sirte libica, trasporto della nave Argo via terra per dodici giorni, approdo al lago Tritonide e uscita dal bacino verso il mare. Testo greco: https://dcc.dickinson.edu/apollonius-argonautica/argonautica-iv-1226-1315 e https://dcc.dickinson.edu/apollonius-argonautica/argonautica-iv-1595-1651 ; traduzione italiana completa **Felice Bellotti (1873)**: https://it.wikisource.org/wiki/Gli_Argonauti/Libro_IV . La numerazione dei versi nell'edizione italiana può differire da quella greca: per la ricerca usare i riferimenti al greco.
+- **Pindaro, `Pitica IV`, vv. 20–37 circa**: testimonianza più antica su Eufemo, Tritone/Euripilo e le acque emissarie del lago Tritonide; utile per il confronto, non obbligatoriamente da recitare. Greco e traduzione: https://adfonteslibrary.org/work-pindar-pythian ; commento: https://dcc.dickinson.edu/apollonius-argonautica/parallel-texts/pindar-pythian-4-divine-clod
+- **Erodoto sull'Egitto**: i passi da leggere nel documentario saranno individuati e verificati puntualmente (libro/paragrafo, edizione e traduzione) prima della creazione delle slide. **Non usare Erodoto per la lettura del racconto degli Argonauti**; quella sezione si fonda sulle *Argonautiche* originali di Apollonio Rodio. Non attribuire a Erodoto una descrizione del sollevamento di Giza o della frattura senza un testo preciso.
 
 **Problema documentario da affrontare apertamente:** Diodoro parla della **scomparsa** della palude in seguito al terremoto, mentre il target del video ipotizza **acque importanti anche dopo il collasso**. Prima di affermare una successione cronologica occorre verificare se i racconti riguardano il medesimo specchio d'acqua, porzioni differenti di un complesso lacustre, tradizioni di epoche diverse, oppure se sussiste una contraddizione non risolta. Nessuno dei due autori, nei passi qui indicati, documenta direttamente la formazione della valle del delta per sollevamento di Giza.
 
 **Stile narrativo:** Google Earth è lo strumento per far vedere la logica geografica e idraulica; le slide testuali servono alla **lettura puntuale delle fonti**, senza inserire immagini accanto al testo. La spiegazione della tesi avviene a braccio, non attraverso un copione rigido.
+
+## Selezione della fonte originale per gli Argonauti — correzione del 23 novembre 2026
+
+**Decisione dell'autore:** i passaggi narrativi sull'approdo degli Argonauti al lago Tritonide **non devono essere letti da Erodoto**. Fonte primaria del documentario per questa vicenda: **Apollonio Rodio, *Argonautiche*, libro IV**, in lingua originale greca. Per le slide di lettura si può usare **la traduzione italiana di Felice Bellotti (1873)**, disponibile integralmente e con scansione della stampa su Wikisource: https://it.wikisource.org/wiki/Gli_Argonauti/Libro_IV . Citare autore, opera, libro, versi **dell'originale** e nome del traduttore; controllare la corrispondenza perché la numerazione dei versi nella traduzione di Bellotti è diversa.
+
+**Passi essenziali da analizzare (non ancora selezionati per la recitazione):**
+- **IV, 267–271:** l'Egitto antico e il «fiume Tritone» che irriga la regione; gli scolî interpretano in questo contesto «Tritone» come nome antico del Nilo. Questo riferimento **non prova** che il lago Tritonide degli Argonauti fosse nello stesso bacino; è un confronto onomastico/geografico da trattare separatamente. Commento filologico: https://dcc.dickinson.edu/apollonius-argonautica/argonautica-iv-236-293
+- **IV, 1228–1392:** tempesta e bassifondi della Sirte; gli eroi trasportano **l'Argo per dodici giorni attraverso la terraferma** e raggiungono il lago Tritonide. Non raccontare, contro il testo, che attraversino per navigazione continua il tratto fra Sirte e lago.
+- **IV, 1537–1622 circa:** impossibilità di trovare l'uscita dal lago; Tritone indica il passaggio stretto verso il mare e gli Argonauti escono dal bacino.
+- **Pindaro, *Pitica IV*, vv. 20–37 circa:** racconto antecedente ad Apollonio della presenza dell'Argo presso l'emissario del lago, dell'incontro con Tritone/Euripilo e del dono a Eufemo: https://dcc.dickinson.edu/apollonius-argonautica/parallel-texts/pindar-pythian-4-divine-clod .
+
+**Altre Argonautiche conservate:** le *Argonautiche orfiche* sono un poema tardoantico (circa V secolo d.C.), non più antico di Apollonio; le *Argonautiche* latine di Valerio Flacco (I secolo d.C.) restano incompiute prima di questo episodio. Non confondere una testimonianza letteraria antica con un diario contemporaneo al viaggio.
+
+**Erodoto rimane fonte per i passi sull'Egitto**, da individuare a parte; il suo racconto degli Argonauti in `Storie` IV, 179 **non rientra nelle letture previste**. Diodoro Siculo continua a essere letto per la tradizione del collasso della palude Tritonide.
 
 ## 1. Indirizzi e file da conservare
 
@@ -53,10 +68,10 @@ Questa è la **tesi centrale del progetto per il video**, non una conclusione gi
 ### Quando usare le slide
 
 - Il sito di appoggio è una **raccolta di slide di supporto**, non il filmato principale. L'autore decide durante la registrazione quando mostrarle.
-- **Momenti previsti per le letture:** passi di **Erodoto sull'Egitto** e passi di **Erodoto sugli Argonauti nel lago Tritonide**. Per queste sezioni il testo dovrà essere preparato e verificato prima della registrazione.
+- **Momenti previsti per le letture:** passi di **Erodoto sull'Egitto**; per **gli Argonauti nel lago Tritonide**, i passi da leggere verranno invece dalle **Argonautiche originali di Apollonio Rodio, soprattutto libro IV**. Per queste sezioni il testo dovrà essere preparato e verificato prima della registrazione.
 - In tali momenti, quando richiesto dall'autore, la slide potrà mostrare **il testo antico in traduzione, impaginato a tutta pagina e con riferimento bibliografico**. Il relatore leggerà il passo; poi tornerà a commentare a braccio su Google Earth.
 - Le altre slide illustrate potranno essere richiamate nei punti scelti dall'autore come supporto visivo, senza imporre un copione parlato per ciascuna immagine.
-- **Non scegliere o inventare preventivamente i passi di Erodoto.** Quando saranno specificati i brani, controllare opera, libro, paragrafo, edizione/traduzione e fonte consultabile; distinguere le parole effettive di Erodoto dalle spiegazioni o ipotesi del progetto.
+- **Non scegliere o inventare i passi da recitare prima delle indicazioni dell'autore.** Per Erodoto controllare libro e paragrafo; per Apollonio Rodio controllare libro e versi originali greci, edizione e traduzione. Distinguere sempre le parole degli autori antichi dalle spiegazioni o ipotesi del progetto.
 
 ### Presentazione e pagina di lettura
 
@@ -73,13 +88,13 @@ Questa è la **tesi centrale del progetto per il video**, non una conclusione gi
 - Utilizzare preferibilmente immagini orizzontali 16:9; `object-fit: cover` per le illustrazioni destinate a riempire il quadro. Per mappe, iscrizioni e reperti non tagliare dati rilevanti: usare `contain` o un adattamento appropriato.
 - **L'autore carica personalmente le immagini su GitHub**; l'assistente verifica nome, posizione e integrità, poi collega il file alla scena. Non inventare immagini, nomi o URL.
 
-### B — Slide di solo testo (soprattutto letture di Erodoto, su richiesta espressa)
+### B — Slide di solo testo (letture di Erodoto per l'Egitto e di Apollonio per gli Argonauti, su richiesta espressa)
 
 - Quando l'autore richiede di **visualizzare anche il testo**, generare una pagina in cui **il testo sia l'unico contenuto dominante**, senza alcuna immagine contestuale a sinistra, a destra o sullo sfondo.
 - Impaginazione di qualità editoriale, sfondo blu notte, testo color avorio e accenti oro discreti, ampi margini di sicurezza.
 - **Caratteri grandi, adattati automaticamente per utilizzare il più possibile l'intera superficie utile del 16:9**; il testo non deve essere troncato né uscire dai bordi. Se troppo lungo per essere leggibile, suddividerlo in più scene di testo.
 - La dimensione del testo visibile nella presentazione e quella della pagina di lettura sono indipendenti; nella pagina del relatore riportare **fedelmente il passo da leggere**, con eventuali note di regia distinte dal testo citato.
-- Per Erodoto e altre citazioni, verificare il passo nell'edizione consultata; mostrare sempre l'attribuzione bibliografica leggibile (opera, libro, paragrafo e traduzione quando disponibile) in basso. Mai aggiungere automaticamente un'immagine laterale: l'eventuale modello delle vecchie slide con citazione e figura **non si usa in questo video**.
+- Per Erodoto (Egitto) e per Apollonio Rodio (Argonauti), verificare il passo nell'edizione consultata; mostrare sempre l'attribuzione bibliografica leggibile (opera, libro, paragrafo **oppure versi**, edizione/traduzione) in basso. Mai aggiungere automaticamente un'immagine laterale: l'eventuale modello delle vecchie slide con citazione e figura **non si usa in questo video**.
 - La copertina testuale iniziale è **provvisoria**: sarà sostituita o mantenuta secondo le scelte editoriali dell'autore.
 
 ## 4. Ordine numerico delle immagini: regola vincolante
@@ -108,7 +123,7 @@ La numerazione **non importa immagini automaticamente** nell'attuale codice del 
 2. Le **riprese/commenti su Google Earth** non richiedono slide né copione integrale. Quando l'autore comunica un percorso o un luogo, si possono redigere appunti di regia, senza trasformarli automaticamente in testi da recitare o in scene HTML.
 3. Se l'autore **carica immagini numerate**, rilevare i file effettivamente presenti, controllarne integrità e percorso, ordinarli per prefisso numerico e predisporre i riferimenti nel sito senza inventare contenuti.
 4. Se l'autore **chiede una slide testuale**, inserirla nella sequenza richiesta. Preparare testo visualizzato a tutta pagina, senza immagine affiancata, e testo di lettura coerente nella pagina del relatore.
-5. Per i **passi di Erodoto**, prima della pubblicazione verificare il brano esatto, il libro e il paragrafo, nonché la traduzione o l'indicazione che la traduzione sia del progetto; evitare parafrasi spacciate per citazioni. Se il passo è lungo, dividerlo in più slide con caratteri ancora ampi.
+5. Per i **passi di Erodoto sull'Egitto** e delle **Argonautiche di Apollonio Rodio** sul lago Tritonide, verificare prima della pubblicazione brano, libro, paragrafo/versi e traduzione; evitare parafrasi spacciate per citazioni. Se il passo è lungo, dividerlo in più slide con caratteri ancora ampi.
 6. Per la **narrazione a braccio** non generare dialoghi o commenti dettagliati per ogni immagine, a meno che l'autore non li richieda espressamente. Per le scene illustrate senza testo di lettura si può lasciare una breve etichetta nella pagina del relatore, non un falso copione.
 7. Conservare le parti già approvate e gli URL. Aggiornare `scene.js` (ed eventualmente gli HTML) solo per necessità effettive, senza modificare altri documentari.
 8. Verificare su GitHub presenza dei file, corrispondenza delle scene e leggibilità del testo; segnalare separatamente l'eventuale collaudo del sito pubblico e il test reale del cambio sorgenti OBS, che richiede l'ambiente di registrazione dell'autore.
@@ -158,7 +173,7 @@ Scena di solo testo:
 - Sito di appoggio e copione creati nel repository pubblico `Fetonte1960/Fetonte`.
 - `scene.js` contiene attualmente soltanto **la copertina testuale provvisoria**.
 - Quattro file numerati presenti nella directory principale del video: **non ancora immagini valide** alla verifica del 23 novembre 2026.
-- **Nuova regia approvata:** Google Earth come scenario principale; commento orale a braccio; cambio manuale alle slide; letture preparate principalmente per Erodoto sull'Egitto e sugli Argonauti nel lago Tritonide.
+- **Nuova regia approvata:** Google Earth come scenario principale; commento orale a braccio; cambio manuale alle slide; letture preparate da **Erodoto per l'Egitto** e **Apollonio Rodio per gli Argonauti nel lago Tritonide** (correzione editoriale del 23 novembre 2026).
 - **Target specifico fissato (v1.3):** valutare la persistenza di un grande specchio d'acqua dopo il collasso narrato da Diodoro e l'ipotesi di una formazione successiva della valle verso il delta del Nilo tramite frattura legata al sollevamento della collina di Giza. Verificare il nesso fra i bacini e le quote, senza presentare come accertata la causalità geologica.
 - **La presentazione esistente non è stata ancora ristrutturata in funzione delle letture:** le slide di citazione saranno aggiunte dopo la scelta/verifica dei passi; non sostituire automaticamente la copertina provvisoria o le immagini senza richiesta.
 - Prossima attività operativa: sostituire i segnaposto con i file PNG reali, associarli alle slide secondo la numerazione e preparare, su richiesta, le letture testuali di Erodoto.
