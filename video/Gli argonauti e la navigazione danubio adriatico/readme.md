@@ -28,6 +28,7 @@ Nelle *Argonautiche*, libro IV, Apollonio Rodio presenta una rotta sull'**Istro*
 - [documentazione/Nota - Curvatura Carpazi e ipotesi aratro cosmico.md](documentazione/Nota%20-%20Curvatura%20Carpazi%20e%20ipotesi%20aratro%20cosmico.md) — confronto geomorfologico: i Carpazi come fronte tettonico arcuato; l'ipotesi Tifone/«aratro cosmico» resta da provare con datazioni e un modello fisico.
 - [carte/Danubio completo - Natural Earth 50m.kml](carte/Danubio%20completo%20-%20Natural%20Earth%2050m.kml) — **tracciato KML del Danubio dalle sorgenti al Mar Nero**, con i tre rami del delta; Natural Earth 1:50m (dominio pubblico), base cartografica generalizzata, non per analisi topografiche di dettaglio.
 - [carte/Rodano completo - Natural Earth 50m.kml](carte/Rodano%20completo%20-%20Natural%20Earth%2050m.kml) — **KML Rodano completo**: alto corso alpino, Lago Lemano, Ginevra, Lione, Valence, Avignone, Arles e due rami del delta in Camargue. Natural Earth 1:50m; non adatto a studi topografici locali.
+- [carte/Reno completo - Natural Earth 50m.kml](carte/Reno%20completo%20-%20Natural%20Earth%2050m.kml) — **KML Reno completo**: Lago Toma e Vorderrhein, Lago di Costanza, alto/medio/basso Reno, Waal e Lek verso il Mare del Nord; sorgente iniziale indicativa, IJssel segnalato ma non tracciato integralmente. Natural Earth 1:50m.
 - [CRONOLOGIA-E-IPOTESI.md](CRONOLOGIA-E-IPOTESI.md) — date, fonti, ipotesi cosmiche e punti non risolti
 - [VERIFICHE-GEOGRAFICHE.md](VERIFICHE-GEOGRAFICHE.md) — idrografia, altimetria, corridoi candidati e test
 - [FONTI-E-BIBLIOGRAFIA.md](FONTI-E-BIBLIOGRAFIA.md) — catalogo di fonti antiche, edizioni e studi
@@ -60,6 +61,10 @@ Gli URL sopra sono **percorsi attesi**, da collaudare nell'ambiente pubblicato; 
 3. Aggiornare il **dossier** distinguendo *testo* → *interpretazione* → *verifica indipendente*.
 4. Registrare qualsiasi revisione di cronologie o ipotesi senza cancellare il ragionamento precedente.
 5. Solo dopo preparare nuove scene e immagini per OBS; verificare commit GitHub e collegamenti.
+
+## Cartografia Reno–Rodano–Danubio — 23 novembre 2026
+
+Aggiunto un terzo KML di base del **Reno (Rhine/Rhin/Rhein)**, dalle Alpi svizzere ai Paesi Bassi. Il corso comprende gli attraversamenti del **Lago di Costanza (Bodensee)** e i rami del delta **Waal** e **Lek**; l'**IJssel** non è disponibile come polilinea completa nella base utilizzata (segnalato con punto). Il tratto esatto di sorgente è soltanto un raccordo indicativo. La cartografia è generalizzata a 1:50m. **Importante:** il Reno nasce a sud, vicino ai sistemi alpini del Rodano e del Danubio, ma questi KML rappresentano la geografia moderna, non una paleo-confluenza dimostrata.
 
 ## Cartografia Rodano–Danubio — 23 novembre 2026
 
