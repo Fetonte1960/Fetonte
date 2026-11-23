@@ -1,8 +1,33 @@
 # Gli Argonauti nel lago Tritonide — regole editoriali e tecniche
 
-**Versione locale:** 1.2 — 23 novembre 2026  
+**Versione locale:** 1.3 — 23 novembre 2026  
 **Stato:** istruzioni operative per la realizzazione e l'aggiornamento del sito di appoggio del documentario **Fetonte il Distruttore**.  
 **Ogni video ha un proprio README con le decisioni editoriali specifiche.** Questo documento è il riferimento da rileggere prima di modificare i file di questo video; non sostituisce le [regole generali del progetto](https://github.com/Fetonte1960/sviluppo-privato/blob/main/fetonte/REGOLE-EDITORIALI-VIDEO.md): specifica le scelte per questo episodio e prevale sulle impostazioni generiche quando esse descrivono una presentazione di prova diversa.
+
+## Obiettivo specifico del documentario — decisione 23 novembre 2026
+
+**Target editoriale dichiarato dall'autore: sostenere e mettere alla prova, mediante fonti antiche e ricostruzione topografica su Google Earth, la tesi di un importante specchio d'acqua esistente all'epoca degli Argonauti, dopo il collasso tramandato da Diodoro Siculo; il bacino, secondo la proposta, non avrebbe potuto persistere con l'odierna configurazione della valle che sbocca nel delta del Nilo.** Ne consegue l'ipotesi di un'apertura/formazione **successiva** di quella valle, attraverso una **frattura collegata al sollevamento della collina di Giza**.
+
+Questa è la **tesi centrale del progetto per il video**, non una conclusione già dimostrata né un'affermazione esplicita di Erodoto o Diodoro. La finalità divulgativa può essere formulata come «dimostrare» nel senso di **esporre argomenti e prove controllabili**, senza presentare come verificato ciò che richiede ancora analisi.
+
+### Nucleo dell'argomentazione da sviluppare
+
+1. **Tradizione del collasso:** analizzare che cosa riferisce realmente Diodoro Siculo circa la palude Tritonide e l'evento sismico che avrebbe aperto il terreno verso l'oceano.
+2. **Persistenza di acque navigabili:** analizzare il racconto di Erodoto sugli Argonauti nel lago Tritonide e valutare che cosa si possa dedurre — e che cosa no — dalla navigazione, dalle secche e dalla ricerca di un passaggio.
+3. **Ricostruzione idrografica:** tramite Google Earth mostrare il bacino d'acqua ipotizzato, il suo possibile livello, le soglie e le connessioni con il territorio circostante.
+4. **Confronto con l'assetto attuale:** mostrare la valle che sbocca nel delta del Nilo e verificare l'affermazione che essa avrebbe impedito la permanenza dell'antico specchio d'acqua. L'argomento deve dipendere da quote, pendenze, spartiacque e possibili sfioratori, **non soltanto dall'impressione visiva di una mappa**.
+5. **Ipotesi causale finale:** esaminare la possibilità che la valle si sia formata in epoca posteriore per una frattura associata al sollevamento della collina di Giza. Servono riscontri geomorfologici, stratigrafici e cronologici per sostenere questo passaggio.
+6. **Conclusione:** distinguere le osservazioni direttamente documentate, le conseguenze idrauliche deducibili e i punti ancora ipotetici.
+
+### Fonti antiche da leggere e citare
+
+- **Diodoro Siculo, `Biblioteca storica`, III, 53–55, in particolare III, 55, 3**: la tradizione delle Amazzoni libiche colloca la palude Tritonide nel racconto; il passo 55, 3 dice che la palude scomparve nel corso di un terremoto, quando le parti verso l'oceano furono lacerate. Testo consultato: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/3D%2A.html
+- **Erodoto, `Storie`, IV, 178–179**: il fiume Tritone e il lago Tritonide; Giasone e gli Argonauti nelle secche del lago e la via per uscirne. Testo consultato: https://lexundria.com/hdt/4.179/mcly e https://lexundria.com/hdt/4.178.1/mcly
+- **Erodoto sull'Egitto**: i passi da leggere nel documentario saranno individuati e verificati puntualmente (libro/paragrafo, edizione e traduzione) prima della creazione delle slide. Non attribuire a Erodoto una descrizione del sollevamento di Giza o della frattura senza un testo preciso.
+
+**Problema documentario da affrontare apertamente:** Diodoro parla della **scomparsa** della palude in seguito al terremoto, mentre il target del video ipotizza **acque importanti anche dopo il collasso**. Prima di affermare una successione cronologica occorre verificare se i racconti riguardano il medesimo specchio d'acqua, porzioni differenti di un complesso lacustre, tradizioni di epoche diverse, oppure se sussiste una contraddizione non risolta. Nessuno dei due autori, nei passi qui indicati, documenta direttamente la formazione della valle del delta per sollevamento di Giza.
+
+**Stile narrativo:** Google Earth è lo strumento per far vedere la logica geografica e idraulica; le slide testuali servono alla **lettura puntuale delle fonti**, senza inserire immagini accanto al testo. La spiegazione della tesi avviene a braccio, non attraverso un copione rigido.
 
 ## 1. Indirizzi e file da conservare
 
@@ -134,6 +159,7 @@ Scena di solo testo:
 - `scene.js` contiene attualmente soltanto **la copertina testuale provvisoria**.
 - Quattro file numerati presenti nella directory principale del video: **non ancora immagini valide** alla verifica del 23 novembre 2026.
 - **Nuova regia approvata:** Google Earth come scenario principale; commento orale a braccio; cambio manuale alle slide; letture preparate principalmente per Erodoto sull'Egitto e sugli Argonauti nel lago Tritonide.
+- **Target specifico fissato (v1.3):** valutare la persistenza di un grande specchio d'acqua dopo il collasso narrato da Diodoro e l'ipotesi di una formazione successiva della valle verso il delta del Nilo tramite frattura legata al sollevamento della collina di Giza. Verificare il nesso fra i bacini e le quote, senza presentare come accertata la causalità geologica.
 - **La presentazione esistente non è stata ancora ristrutturata in funzione delle letture:** le slide di citazione saranno aggiunte dopo la scelta/verifica dei passi; non sostituire automaticamente la copertina provvisoria o le immagini senza richiesta.
 - Prossima attività operativa: sostituire i segnaposto con i file PNG reali, associarli alle slide secondo la numerazione e preparare, su richiesta, le letture testuali di Erodoto.
 
