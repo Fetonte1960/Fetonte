@@ -25,6 +25,7 @@ Nelle *Argonautiche*, libro IV, Apollonio Rodio presenta una rotta sull'**Istro*
 - [DOSSIER-RICERCA.md](DOSSIER-RICERCA.md) — stato dell'indagine e confronto delle alternative
 - [documentazione/Video Deucalione - trascrizione fornita.md](documentazione/Video%20Deucalione%20-%20trascrizione%20fornita.md) — testo integrale fornito dall'autore: Deucalione, Stele della Tempesta, crisi ittita, Mitanni, Indoari e ipotesi Fetonte circa 1500 a.C.; **non normalizzato né verificato sul video**.
 - [documentazione/Nota - Strabone e agente geologico ipotizzato.md](documentazione/Nota%20-%20Strabone%20e%20agente%20geologico%20ipotizzato.md) — **novità interpretativa**: la geografia ritenuta impossibile da Strabone potrebbe riferirsi a un assetto anteriore alla trasformazione degli spartiacque; Tifone–Troia come possibile finestra di chiusura, da verificare.
+- [documentazione/Nota - Curvatura Carpazi e ipotesi aratro cosmico.md](documentazione/Nota%20-%20Curvatura%20Carpazi%20e%20ipotesi%20aratro%20cosmico.md) — confronto geomorfologico: i Carpazi come fronte tettonico arcuato; l'ipotesi Tifone/«aratro cosmico» resta da provare con datazioni e un modello fisico.
 - [CRONOLOGIA-E-IPOTESI.md](CRONOLOGIA-E-IPOTESI.md) — date, fonti, ipotesi cosmiche e punti non risolti
 - [VERIFICHE-GEOGRAFICHE.md](VERIFICHE-GEOGRAFICHE.md) — idrografia, altimetria, corridoi candidati e test
 - [FONTI-E-BIBLIOGRAFIA.md](FONTI-E-BIBLIOGRAFIA.md) — catalogo di fonti antiche, edizioni e studi
@@ -57,6 +58,10 @@ Gli URL sopra sono **percorsi attesi**, da collaudare nell'ambiente pubblicato; 
 3. Aggiornare il **dossier** distinguendo *testo* → *interpretazione* → *verifica indipendente*.
 4. Registrare qualsiasi revisione di cronologie o ipotesi senza cancellare il ragionamento precedente.
 5. Solo dopo preparare nuove scene e immagini per OBS; verificare commit GitHub e collegamenti.
+
+## Nuova osservazione geomorfologica — 23 novembre 2026
+
+L'autore ha identificato nelle mappe satellitari la curvatura dei Carpazi romeni e ha proposto di confrontarla con l'azione di un «aratro cosmico» attribuito a Tifone. Annotata la distinzione fra meccanismo orogenico realmente documentato (compressione, sovrascorrimenti, subsidenza dei bacini) e una possibile perturbazione cosmica storica non dimostrata. Conservati il rapporto con la regione di Vrancea e la separazione geografica dal Monte Emo e dallo spartiacque Kosovo–Drin. Vedere la nota di documentazione specifica.
 
 ## Registro nuova ipotesi — 23 novembre 2026
 
