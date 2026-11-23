@@ -1,13 +1,13 @@
 # Gli Argonauti nel lago Tritonide — regole editoriali e tecniche
 
-**Versione locale:** 1.1 — 23 novembre 2026  
+**Versione locale:** 1.2 — 23 novembre 2026  
 **Stato:** istruzioni operative per la realizzazione e l'aggiornamento del sito di appoggio del documentario **Fetonte il Distruttore**.  
-**Questo README è il riferimento da rileggere prima di modificare i file del video.** Non sostituisce le [regole generali del progetto](https://github.com/Fetonte1960/sviluppo-privato/blob/main/fetonte/REGOLE-EDITORIALI-VIDEO.md): specifica le scelte per questo episodio e prevale sulle impostazioni generiche quando esse descrivono una presentazione di prova diversa.
+**Ogni video ha un proprio README con le decisioni editoriali specifiche.** Questo documento è il riferimento da rileggere prima di modificare i file di questo video; non sostituisce le [regole generali del progetto](https://github.com/Fetonte1960/sviluppo-privato/blob/main/fetonte/REGOLE-EDITORIALI-VIDEO.md): specifica le scelte per questo episodio e prevale sulle impostazioni generiche quando esse descrivono una presentazione di prova diversa.
 
 ## 1. Indirizzi e file da conservare
 
-- **Presentazione pubblica (finestra OBS):** https://fetonte.it/video/Gli%20argonauti%20nel%20lago%20Tritonide/
-- **Copione pubblico (finestra del relatore):** https://fetonte.it/video/Gli%20argonauti%20nel%20lago%20Tritonide/copione.html
+- **Presentazione pubblica (sorgente secondaria da mostrare in OBS):** https://fetonte.it/video/Gli%20argonauti%20nel%20lago%20Tritonide/
+- **Pagina di lettura dei brani e riferimenti (quando necessaria):** https://fetonte.it/video/Gli%20argonauti%20nel%20lago%20Tritonide/copione.html
 - **Presentazione:** [index.html](index.html)
 - **Archivio ordinato delle scene e dei testi:** [scene.js](scene.js)
 - **Copione sincronizzato:** [copione.html](copione.html)
@@ -15,31 +15,46 @@
 
 **Non cambiare gli URL** e non modificare la presentazione precedente in `/presentazioni/`. Il documentario ha il suo spazio indipendente in `video/Gli argonauti nel lago Tritonide/`.
 
-## 2. Regia e modalità di registrazione
+## 2. Regia specifica di questo video — Google Earth e narrazione a braccio (decisione 23 novembre 2026)
 
-- Impostazione orizzontale **16:9**, obiettivo **1920 × 1080 px**; registrazione iniziale OBS 30 fps.
-- In Chrome si aprono **due finestre dello stesso sito e profilo del browser**: presentazione e copione.
-- **OBS registra soltanto la presentazione**; la seconda finestra contiene il testo pronunciato dal relatore con la propria voce.
-- Ogni scena della presentazione corrisponde **a una sezione del copione**; avanzando nella presentazione si aggiorna il testo da leggere e viceversa.
-- Sincronizzare tramite `BroadcastChannel` con integrazione di `localStorage`. Il canale di questo video deve restare separato dagli altri documentari.
-- Comandi della presentazione: **→ / Spazio** avanti, **←** indietro, **Home / End** prima/ultima, **F** fullscreen del documento, **F11** fullscreen del browser.
-- **Niente pulsanti di navigazione visibili nella finestra registrata**. Nel copione possono esserci pulsanti per navigazione e dimensione del carattere.
+### Scenario principale
 
-## 3. Due tipi di scena: niente composizioni affiancate
+- La registrazione è realizzata con **OBS**, in formato orizzontale **16:9**, obiettivo **1920 × 1080 px**, inizialmente **30 fps**.
+- **La sorgente visiva principale è Google Earth**: durante il racconto l'autore esplora e mostra direttamente territori, litorali, laghi e luoghi della ricerca, con inquadrature e spostamenti gestiti a mano. **Il sito di appoggio NON sostituisce Google Earth e non deve incorporarne una copia statica o simulata.**
+- Il commento del relatore è **a braccio**, con la sua voce. **Non preparare per impostazione predefinita un copione continuo da recitare** né una voce sintetica. Eventuali scalette, indicazioni sulle località e appunti di regia sono di supporto, non testi obbligatori da leggere.
+- Il relatore passa **manualmente da Google Earth alla presentazione HTML** in determinati momenti del video, usando scene/sorgenti di OBS o la gestione delle finestre. Il flusso tipico è: Google Earth → slide selezionata → Google Earth. Nessun avanzamento automatico basato sulla durata della narrazione.
+- Mantenere l'audio del microfono durante il passaggio tra le sorgenti. La presentazione deve essere leggibile a tutto schermo e non presentare pulsanti di navigazione visibili nel quadro registrato.
 
-### A — Scena illustrata (normale)
+### Quando usare le slide
+
+- Il sito di appoggio è una **raccolta di slide di supporto**, non il filmato principale. L'autore decide durante la registrazione quando mostrarle.
+- **Momenti previsti per le letture:** passi di **Erodoto sull'Egitto** e passi di **Erodoto sugli Argonauti nel lago Tritonide**. Per queste sezioni il testo dovrà essere preparato e verificato prima della registrazione.
+- In tali momenti, quando richiesto dall'autore, la slide potrà mostrare **il testo antico in traduzione, impaginato a tutta pagina e con riferimento bibliografico**. Il relatore leggerà il passo; poi tornerà a commentare a braccio su Google Earth.
+- Le altre slide illustrate potranno essere richiamate nei punti scelti dall'autore come supporto visivo, senza imporre un copione parlato per ciascuna immagine.
+- **Non scegliere o inventare preventivamente i passi di Erodoto.** Quando saranno specificati i brani, controllare opera, libro, paragrafo, edizione/traduzione e fonte consultabile; distinguere le parole effettive di Erodoto dalle spiegazioni o ipotesi del progetto.
+
+### Presentazione e pagina di lettura
+
+- La presentazione resta accessibile su GitHub Pages, indipendentemente da Google Earth, con le scene ordinate nel file `scene.js`.
+- La pagina `copione.html` diventa principalmente **supporto per la lettura delle citazioni** e, se utile, un promemoria sintetico delle scene: non obbliga a trascrivere il commento spontaneo.
+- Per le slide che richiedono lettura preparata, mantenere **sincronizzati testo visualizzato e testo da leggere**, usando `BroadcastChannel` e `localStorage` dello stesso sito/profilo di browser, con chiave e canale separati dagli altri documentari.
+- Comandi della presentazione: **→ / Spazio** avanti, **←** indietro, **Home / End** prima/ultima, **F** fullscreen del documento, **F11** fullscreen del browser. La finestra di lettura può avere pulsanti e dimensioni del testo indipendenti.
+
+## 3. Slide di supporto richiamabili durante la regia: niente composizioni affiancate
+
+### A — Slide illustrata (richiamata in momenti scelti)
 
 - Mostrare **una sola immagine a tutto schermo**; nessun testo, didascalia, citazione o titolo sovrapposto durante la narrazione, salvo richiesta specifica.
 - Utilizzare preferibilmente immagini orizzontali 16:9; `object-fit: cover` per le illustrazioni destinate a riempire il quadro. Per mappe, iscrizioni e reperti non tagliare dati rilevanti: usare `contain` o un adattamento appropriato.
 - **L'autore carica personalmente le immagini su GitHub**; l'assistente verifica nome, posizione e integrità, poi collega il file alla scena. Non inventare immagini, nomi o URL.
 
-### B — Scena di solo testo (su richiesta espressa)
+### B — Slide di solo testo (soprattutto letture di Erodoto, su richiesta espressa)
 
 - Quando l'autore richiede di **visualizzare anche il testo**, generare una pagina in cui **il testo sia l'unico contenuto dominante**, senza alcuna immagine contestuale a sinistra, a destra o sullo sfondo.
 - Impaginazione di qualità editoriale, sfondo blu notte, testo color avorio e accenti oro discreti, ampi margini di sicurezza.
 - **Caratteri grandi, adattati automaticamente per utilizzare il più possibile l'intera superficie utile del 16:9**; il testo non deve essere troncato né uscire dai bordi. Se troppo lungo per essere leggibile, suddividerlo in più scene di testo.
-- La dimensione del testo visibile nella presentazione e quella del copione sono indipendenti; il copione può contenere spiegazioni più lunghe.
-- Se si tratta di una citazione, verificare l'originale; mostrare l'attribuzione bibliografica discreta nella zona inferiore quando appropriato. Mai aggiungere automaticamente un'immagine laterale: l'eventuale modello delle vecchie slide con citazione e figura **non si usa in questo video**.
+- La dimensione del testo visibile nella presentazione e quella della pagina di lettura sono indipendenti; nella pagina del relatore riportare **fedelmente il passo da leggere**, con eventuali note di regia distinte dal testo citato.
+- Per Erodoto e altre citazioni, verificare il passo nell'edizione consultata; mostrare sempre l'attribuzione bibliografica leggibile (opera, libro, paragrafo e traduzione quando disponibile) in basso. Mai aggiungere automaticamente un'immagine laterale: l'eventuale modello delle vecchie slide con citazione e figura **non si usa in questo video**.
 - La copertina testuale iniziale è **provvisoria**: sarà sostituita o mantenuta secondo le scelte editoriali dell'autore.
 
 ## 4. Ordine numerico delle immagini: regola vincolante
@@ -62,19 +77,20 @@ Il posizionamento di **scene testuali tra le immagini** si decide secondo le ist
 
 La numerazione **non importa immagini automaticamente** nell'attuale codice del sito: l'assistente aggiorna esplicitamente `scene.js`, conservando l'ordine. Un eventuale automatismo futuro deve rispettare le stesse regole.
 
-## 5. Comportamento quando arriva un nuovo brano o una nuova immagine
+## 5. Flusso operativo per l'assistente
 
-1. **Rileggere questo README** e lo stato aggiornato di `scene.js`, `index.html`, `copione.html`.
-2. Se l'autore **detta un brano**, migliorarne ortografia e fluidità **senza alterarne il significato**; salvare il testo completo nel copione tramite `scene.js`. Distinguere testo delle fonti e interpretazione del progetto.
-3. Se l'autore **carica immagini**, elencare i file realmente presenti, controllarne l'integrità e ordinarli per il prefisso numerico.
-4. **Associare una scena al relativo brano**; se mancano informazioni per un copione definitivo, non inventare la narrazione. Per una scena senza testo approvato usare un segnaposto esplicito solo nella finestra del copione.
-5. Se l'autore **richiede una scena testuale**, inserirla dove indicato in sequenza, adattarne le dimensioni e mettere l'eventuale testo da pronunciare anche nel copione. **Mai sostituire un'immagine con una scena testuale senza richiesta**.
-6. Aggiornare `scene.js` ed eventualmente `index.html` o `copione.html` se occorrono cambiamenti tecnici; **conservare le parti già approvate**.
-7. Verificare dopo ogni aggiornamento la corrispondenza fra le scene e i brani, i riferimenti dei file, la sincronizzazione, la leggibilità a 1080p e gli URL invariati. Dichiarare ciò che è stato verificato su GitHub e distinguere da un eventuale collaudo visivo non eseguito sul sito pubblico.
+1. **Rileggere prima questo README** e lo stato aggiornato di `scene.js`, `index.html`, `copione.html`.
+2. Le **riprese/commenti su Google Earth** non richiedono slide né copione integrale. Quando l'autore comunica un percorso o un luogo, si possono redigere appunti di regia, senza trasformarli automaticamente in testi da recitare o in scene HTML.
+3. Se l'autore **carica immagini numerate**, rilevare i file effettivamente presenti, controllarne integrità e percorso, ordinarli per prefisso numerico e predisporre i riferimenti nel sito senza inventare contenuti.
+4. Se l'autore **chiede una slide testuale**, inserirla nella sequenza richiesta. Preparare testo visualizzato a tutta pagina, senza immagine affiancata, e testo di lettura coerente nella pagina del relatore.
+5. Per i **passi di Erodoto**, prima della pubblicazione verificare il brano esatto, il libro e il paragrafo, nonché la traduzione o l'indicazione che la traduzione sia del progetto; evitare parafrasi spacciate per citazioni. Se il passo è lungo, dividerlo in più slide con caratteri ancora ampi.
+6. Per la **narrazione a braccio** non generare dialoghi o commenti dettagliati per ogni immagine, a meno che l'autore non li richieda espressamente. Per le scene illustrate senza testo di lettura si può lasciare una breve etichetta nella pagina del relatore, non un falso copione.
+7. Conservare le parti già approvate e gli URL. Aggiornare `scene.js` (ed eventualmente gli HTML) solo per necessità effettive, senza modificare altri documentari.
+8. Verificare su GitHub presenza dei file, corrispondenza delle scene e leggibilità del testo; segnalare separatamente l'eventuale collaudo del sito pubblico e il test reale del cambio sorgenti OBS, che richiede l'ambiente di registrazione dell'autore.
 
 ## 6. Archivio delle scene: contratto dei dati
 
-**Un oggetto di `window.FETONTE_ARGONAUTI_SCENE` = una scena nella presentazione e una sezione nel copione.**
+**Un oggetto di `window.FETONTE_ARGONAUTI_SCENE` = una slide nel sito di appoggio e una sezione facoltativa nella pagina di lettura.** I passaggi in Google Earth sono gestiti direttamente in OBS e **non** vengono contati come slide HTML.
 
 Scena con immagine:
 
@@ -84,7 +100,7 @@ Scena con immagine:
   src: "1-Atlantide%20nel%20Sahara_%20il%20lago%20Tritonide.png",
   alt: "Descrizione dell'immagine",
   scriptTitle: "Titolo del brano",
-  script: "Testo approvato da leggere"
+  script: "Eventuale breve promemoria di regia, non un copione obbligatorio"
 }
 ```
 
@@ -97,27 +113,29 @@ Scena di solo testo:
   text: "Testo grande da visualizzare",
   source: "Riferimento bibliografico, se necessario",
   scriptTitle: "Titolo del brano",
-  script: "Testo approvato da leggere"
+  script: "Passo effettivamente letto dal relatore, da edizione verificata"
 }
 ```
 
-**Non scrivere manualmente due copioni discordanti:** `scene.js` alimenta entrambe le pagine. Le scene sono aggiunte nella posizione concordata dall'autore. Evitare cambiamenti distruttivi nel codice e nei contenuti approvati.
+**Non duplicare testi discordanti:** `scene.js` alimenta entrambe le pagine. I brani di lettura preparata devono essere concordanti; le altre slide possono avere soltanto note sintetiche. Le scene sono aggiunte nella posizione concordata dall'autore. Evitare cambiamenti distruttivi nel codice e nei contenuti approvati.
 
 ## 7. Fonti, immagini e pubblicazione
 
 - Per affermazioni storiche, geografiche o archeologiche distinguere **citazione originale**, **riscontro esterno**, **interpretazione dell'autore** e **ipotesi ancora aperta**.
 - Se si usano immagini documentarie da Wikipedia/Wikimedia Commons, controllare la scheda specifica: autore, URL, licenza, attribuzione, modifiche e compatibilità col riuso su YouTube e Fetonte.it. Non attribuire genericamente a Wikipedia.
 - Le immagini generate sono **ricostruzioni illustrative**, non reperti o fotografie storiche.
-- Il copione sul sito è **pubblico**: non inserirvi appunti riservati, credenziali o dati sensibili.
-- Il flusso è statico su GitHub Pages: **nessun server aggiuntivo** è previsto per la presentazione e il copione.
+- La pagina di lettura sul sito è **pubblica**: non inserirvi appunti riservati, credenziali o dati sensibili.
+- Il flusso di supporto è statico su GitHub Pages: **nessun server aggiuntivo** è previsto per presentazione e pagina di lettura. La sorgente principale resta Google Earth, registrata separatamente tramite OBS.
 - Conservare la cronologia delle decisioni nel README o nel diario di ricerca quando si rivedono regole importanti.
 
-## 8. Stato iniziale registrato
+## 8. Stato del lavoro e decisione del 23 novembre 2026
 
 - Sito di appoggio e copione creati nel repository pubblico `Fetonte1960/Fetonte`.
 - `scene.js` contiene attualmente soltanto **la copertina testuale provvisoria**.
 - Quattro file numerati presenti nella directory principale del video: **non ancora immagini valide** alla verifica del 23 novembre 2026.
-- Prossima attività: sostituire i segnaposto con i file PNG reali, associare le immagini alle scene in ordine 1–4, quindi aggiungere i brani dettati e le eventuali scene di testo richieste.
+- **Nuova regia approvata:** Google Earth come scenario principale; commento orale a braccio; cambio manuale alle slide; letture preparate principalmente per Erodoto sull'Egitto e sugli Argonauti nel lago Tritonide.
+- **La presentazione esistente non è stata ancora ristrutturata in funzione delle letture:** le slide di citazione saranno aggiunte dopo la scelta/verifica dei passi; non sostituire automaticamente la copertina provvisoria o le immagini senza richiesta.
+- Prossima attività operativa: sostituire i segnaposto con i file PNG reali, associarli alle slide secondo la numerazione e preparare, su richiesta, le letture testuali di Erodoto.
 
 ---
 **Regole comuni del progetto:** [fetonte/REGOLE-EDITORIALI-VIDEO.md](https://github.com/Fetonte1960/sviluppo-privato/blob/main/fetonte/REGOLE-EDITORIALI-VIDEO.md).  
