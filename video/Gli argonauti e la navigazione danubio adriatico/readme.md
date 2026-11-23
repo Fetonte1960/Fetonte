@@ -24,6 +24,7 @@ Nelle *Argonautiche*, libro IV, Apollonio Rodio presenta una rotta sull'**Istro*
 ## File del progetto
 - [DOSSIER-RICERCA.md](DOSSIER-RICERCA.md) — stato dell'indagine e confronto delle alternative
 - [documentazione/Video Deucalione - trascrizione fornita.md](documentazione/Video%20Deucalione%20-%20trascrizione%20fornita.md) — testo integrale fornito dall'autore: Deucalione, Stele della Tempesta, crisi ittita, Mitanni, Indoari e ipotesi Fetonte circa 1500 a.C.; **non normalizzato né verificato sul video**.
+- [documentazione/Nota - Strabone e agente geologico ipotizzato.md](documentazione/Nota%20-%20Strabone%20e%20agente%20geologico%20ipotizzato.md) — **novità interpretativa**: la geografia ritenuta impossibile da Strabone potrebbe riferirsi a un assetto anteriore alla trasformazione degli spartiacque; Tifone–Troia come possibile finestra di chiusura, da verificare.
 - [CRONOLOGIA-E-IPOTESI.md](CRONOLOGIA-E-IPOTESI.md) — date, fonti, ipotesi cosmiche e punti non risolti
 - [VERIFICHE-GEOGRAFICHE.md](VERIFICHE-GEOGRAFICHE.md) — idrografia, altimetria, corridoi candidati e test
 - [FONTI-E-BIBLIOGRAFIA.md](FONTI-E-BIBLIOGRAFIA.md) — catalogo di fonti antiche, edizioni e studi
@@ -56,6 +57,10 @@ Gli URL sopra sono **percorsi attesi**, da collaudare nell'ambiente pubblicato; 
 3. Aggiornare il **dossier** distinguendo *testo* → *interpretazione* → *verifica indipendente*.
 4. Registrare qualsiasi revisione di cronologie o ipotesi senza cancellare il ragionamento precedente.
 5. Solo dopo preparare nuove scene e immagini per OBS; verificare commit GitHub e collegamenti.
+
+## Registro nuova ipotesi — 23 novembre 2026
+
+È stata registrata la distinzione fra l'**inverosimiglianza del doppio sbocco nella geografia conosciuta da Strabone** e la **possibile esistenza in un paesaggio più antico**. Il candidato alla trasformazione resta un processo geologico da identificare e datare; l'eventuale causa Tifone/Fetonte è ulteriore ipotesi, non risultato acquisito. Priorità: verifica morfologica e cronologica del collegamento.
 
 ## Registro documentazione — 23 novembre 2026
 
