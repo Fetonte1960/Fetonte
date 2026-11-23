@@ -27,6 +27,7 @@ Nelle *Argonautiche*, libro IV, Apollonio Rodio presenta una rotta sull'**Istro*
 - [documentazione/Nota - Strabone e agente geologico ipotizzato.md](documentazione/Nota%20-%20Strabone%20e%20agente%20geologico%20ipotizzato.md) — **novità interpretativa**: la geografia ritenuta impossibile da Strabone potrebbe riferirsi a un assetto anteriore alla trasformazione degli spartiacque; Tifone–Troia come possibile finestra di chiusura, da verificare.
 - [documentazione/Nota - Curvatura Carpazi e ipotesi aratro cosmico.md](documentazione/Nota%20-%20Curvatura%20Carpazi%20e%20ipotesi%20aratro%20cosmico.md) — confronto geomorfologico: i Carpazi come fronte tettonico arcuato; l'ipotesi Tifone/«aratro cosmico» resta da provare con datazioni e un modello fisico.
 - [carte/Danubio completo - Natural Earth 50m.kml](carte/Danubio%20completo%20-%20Natural%20Earth%2050m.kml) — **tracciato KML del Danubio dalle sorgenti al Mar Nero**, con i tre rami del delta; Natural Earth 1:50m (dominio pubblico), base cartografica generalizzata, non per analisi topografiche di dettaglio.
+- [carte/Rodano completo - Natural Earth 50m.kml](carte/Rodano%20completo%20-%20Natural%20Earth%2050m.kml) — **KML Rodano completo**: alto corso alpino, Lago Lemano, Ginevra, Lione, Valence, Avignone, Arles e due rami del delta in Camargue. Natural Earth 1:50m; non adatto a studi topografici locali.
 - [CRONOLOGIA-E-IPOTESI.md](CRONOLOGIA-E-IPOTESI.md) — date, fonti, ipotesi cosmiche e punti non risolti
 - [VERIFICHE-GEOGRAFICHE.md](VERIFICHE-GEOGRAFICHE.md) — idrografia, altimetria, corridoi candidati e test
 - [FONTI-E-BIBLIOGRAFIA.md](FONTI-E-BIBLIOGRAFIA.md) — catalogo di fonti antiche, edizioni e studi
@@ -59,6 +60,10 @@ Gli URL sopra sono **percorsi attesi**, da collaudare nell'ambiente pubblicato; 
 3. Aggiornare il **dossier** distinguendo *testo* → *interpretazione* → *verifica indipendente*.
 4. Registrare qualsiasi revisione di cronologie o ipotesi senza cancellare il ragionamento precedente.
 5. Solo dopo preparare nuove scene e immagini per OBS; verificare commit GitHub e collegamenti.
+
+## Cartografia Rodano–Danubio — 23 novembre 2026
+
+Aggiunto il **Rodano completo** come confronto fluviale al tracciato del Danubio: dall'alto Rodano alpino (approssimato presso il ghiacciaio), attraverso la linea centrale del Lago Lemano, fino alle due foci mediterranee nella Camargue. Fonte Natural Earth 1:50m, dominio pubblico. I due KML moderni servono a confrontare i bacini; **non rappresentano** l'ipotetica connessione Eridano–Rodano né certificano antiche vie navigabili. L'attraversamento del Lago Lemano e le foci sono semplificati.
 
 ## Cartografia di base — 23 novembre 2026
 
