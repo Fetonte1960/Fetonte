@@ -13,7 +13,7 @@ Questa è la **tesi centrale del progetto per il video**, non una conclusione gi
 ### Nucleo dell'argomentazione da sviluppare
 
 1. **Tradizione del collasso:** analizzare che cosa riferisce realmente Diodoro Siculo circa la palude Tritonide e l'evento sismico che avrebbe aperto il terreno verso l'oceano.
-2. **Persistenza di acque navigabili:** analizzare il racconto di Erodoto sugli Argonauti nel lago Tritonide e valutare che cosa si possa dedurre — e che cosa no — dalla navigazione, dalle secche e dalla ricerca di un passaggio.
+2. **Persistenza di acque navigabili:** analizzare il racconto di **Apollonio Rodio, *Argonautiche* IV**, sul lago Tritonide, sul trasporto dell'Argo attraverso la terraferma, sulla ricerca dell'uscita e sul passaggio verso il mare; distinguere il testo antico dalle deduzioni topografiche e idrauliche del progetto.
 3. **Ricostruzione idrografica:** tramite Google Earth mostrare il bacino d'acqua ipotizzato, il suo possibile livello, le soglie e le connessioni con il territorio circostante.
 4. **Confronto con l'assetto attuale:** mostrare la valle che sbocca nel delta del Nilo e verificare l'affermazione che essa avrebbe impedito la permanenza dell'antico specchio d'acqua. L'argomento deve dipendere da quote, pendenze, spartiacque e possibili sfioratori, **non soltanto dall'impressione visiva di una mappa**.
 5. **Ipotesi causale finale:** esaminare la possibilità che la valle si sia formata in epoca posteriore per una frattura associata al sollevamento della collina di Giza. Servono riscontri geomorfologici, stratigrafici e cronologici per sostenere questo passaggio.
@@ -176,7 +176,7 @@ Scena di solo testo:
 - **Nuova regia approvata:** Google Earth come scenario principale; commento orale a braccio; cambio manuale alle slide; letture preparate da **Erodoto per l'Egitto** e **Apollonio Rodio per gli Argonauti nel lago Tritonide** (correzione editoriale del 23 novembre 2026).
 - **Target specifico fissato (v1.3):** valutare la persistenza di un grande specchio d'acqua dopo il collasso narrato da Diodoro e l'ipotesi di una formazione successiva della valle verso il delta del Nilo tramite frattura legata al sollevamento della collina di Giza. Verificare il nesso fra i bacini e le quote, senza presentare come accertata la causalità geologica.
 - **La presentazione esistente non è stata ancora ristrutturata in funzione delle letture:** le slide di citazione saranno aggiunte dopo la scelta/verifica dei passi; non sostituire automaticamente la copertina provvisoria o le immagini senza richiesta.
-- Prossima attività operativa: sostituire i segnaposto con i file PNG reali, associarli alle slide secondo la numerazione e preparare, su richiesta, le letture testuali di Erodoto.
+- Prossima attività operativa: sostituire i segnaposto con i file PNG reali, associarli alle slide secondo la numerazione e preparare, su richiesta, le letture testuali da **Apollonio Rodio (Argonauti)** e da **Erodoto (Egitto)**.
 
 ---
 **Regole comuni del progetto:** [fetonte/REGOLE-EDITORIALI-VIDEO.md](https://github.com/Fetonte1960/sviluppo-privato/blob/main/fetonte/REGOLE-EDITORIALI-VIDEO.md).  
